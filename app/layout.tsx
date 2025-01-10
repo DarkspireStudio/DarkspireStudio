@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 		description:
 			"Aqui você encontra projetos que refletem minha paixão por criar soluções visuais impactantes e funcionais. Com experiência em design gráfico, identidade visual, UI/UX e ilustração, busco transformar ideias em experiências únicas, aliando criatividade e técnica.",
 		url: "https://darkspirestudio.vercel.app/",
-		siteName: "Studios",
+		siteName: "Darkspire Studio",
 		images: "/og.png",
 		type: "website",
 	},

@@ -34,8 +34,8 @@ export const galery = [
         type: ["Poster", "Manipulação de imagem"]
     },
     {
-        src: "https://images.pexels.com/photos/30149506/pexels-photo-30149506.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        txt: "Soul Cinder",
+        src: "https://i.imgur.com/HEjz7h9.jpeg",
+        txt: "Tired",
         tech:[SiAdobeillustrator, SiAdobephotoshop],
         type: ["Poster"]
     },
@@ -46,17 +46,13 @@ export const galery = [
         type: ["Manipulação de imagem"]
     },
     {
-        src: "https://i.pinimg.com/736x/9b/53/0e/9b530ec068369417b9b1ccb089b880d3.jpg",
-        txt: "Citröen BX 4TC",
-        tech:[SiAdobeillustrator, SiAdobephotoshop],
-        type: ["Poster"]
-    },
-    {
-        src: "https://i.pinimg.com/736x/4e/02/70/4e0270b6067dd75a39614244bdba6893.jpg",
-        txt: "The Batman",
-        tech:[SiAdobephotoshop],
+        src: "https://i.imgur.com/OMIbSoH.jpeg",
+        txt: "Embrace the Vibe",
+        tech:[SiAdobephotoshop, SiAdobeillustrator],
         type: ["Poster", "Manipulação de imagem"]
     },
+
+
 ];
 
 //Thumbs dos Projetos

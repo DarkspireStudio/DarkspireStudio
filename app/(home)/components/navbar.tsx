@@ -17,11 +17,11 @@ export default function Navbar({className}:{className?:string}) {
             icon: FaInstagram,
         },
 
-        {
-            link: "https://www.instagram.com/mnfll.dsgn/",
-            label: "LinkedIn",
-            icon: FaLinkedin,
-        },
+        //{
+            //link: "https://www.instagram.com/mnfll.dsgn/",
+            //label: "LinkedIn",
+            //icon: FaLinkedin,
+        //},
     ]
 
  return (
