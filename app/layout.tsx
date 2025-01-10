@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Noto_Sans, Noto_Sans_Mono } from "next/font/google";
 import "./globals.css";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import { ThemeProvider } from "@/components/theme-provider"
 
@@ -15,7 +16,7 @@ const notoMono = Noto_Sans_Mono({
 });
 
 export const metadata: Metadata = {
-	metadataBase: new URL("http://localhost:3000/"),
+	metadataBase: new URL("https://darkspirestudio.vercel.app/"),
 
 	title: "Darkspire Studio",
 	authors: {
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
 		title: "Studios",
 		description:
 			"Aqui você encontra projetos que refletem minha paixão por criar soluções visuais impactantes e funcionais. Com experiência em design gráfico, identidade visual, UI/UX e ilustração, busco transformar ideias em experiências únicas, aliando criatividade e técnica.",
-		url: "http://localhost:3000/",
+		url: "https://darkspirestudio.vercel.app/",
 		siteName: "Studios",
 		images: "/og.png",
 		type: "website",
@@ -53,6 +54,7 @@ export default function RootLayout({
             disableTransitionOnChange
           >
             {children}
+            <SpeedInsights />
           </ThemeProvider>
       </body>
     </html>

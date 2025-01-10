@@ -19,7 +19,6 @@ export default function OutherMidias() {
                 return (
                     <div key={index} className="hover:scale-150 transition-all  bg-black p-2 rounded-md border-gray-700 border-2 cursor-pointer">
                         <Image src={image.src} alt={image.title} height={500} width={500}/>
-                        <h1 className="text-3xl font-mono font-bold text-gray-500">{image.title}</h1>
                     </div>
                 )
             })}

@@ -65,7 +65,7 @@ export const projects = [
         title: "Projeto de Marca Timelles",
         tech:[SiAdobeillustrator, SiAdobephotoshop],
         Link: "/Timeless",
-        cover: "https://placehold.co/600x300",
+        cover: "https://i.imgur.com/4Ts19Zp.png",
         background: "bg-purple-700",
     },
 
@@ -73,7 +73,7 @@ export const projects = [
         title: "Cyberpunk 2077 Dice Game",
         tech:[SiAdobeillustrator, SiAdobephotoshop, SiAdobepremierepro],
         Link: "/Cyberpunk",
-        cover: "https://placehold.co/600x300",
+        cover: "https://i.imgur.com/9XWeo8x.png",
         background: "bg-purple-700",
     },
 ]
@@ -82,7 +82,7 @@ export const projects = [
 export const bannerTimeless =  [
     {
       title: "PROJETO DE MARCA TIMELLES",
-      cover: "https://placehold.co/1200x600",
+      cover: "https://i.imgur.com/SeIgSzR.png",
     }
   ]
 
@@ -106,7 +106,7 @@ export const extTimeless = [
         label: "Instagram do Projeto"
     },
     {
-        href: "https://www.instagram.com/timeless.y2ks/",
+        href: "https://drive.google.com/file/d/11AuP7Cb0wXhQfIb8xWg_4ibyWHudY_HM/view?usp=sharing/",
         ico: FaRegFilePdf,
         label: "Manual de Identidade Visual"
     },
@@ -114,16 +114,28 @@ export const extTimeless = [
 
 export const midTimeless = [
     {
-        src : "https://placehold.co/600x300",
+        src : "https://i.pinimg.com/736x/31/a2/61/31a261e5664d15b4fb1be3fd0360725e.jpg",
         title: "1",
     },
     {
-        src : "https://placehold.co/600x300",
+        src : "https://i.pinimg.com/736x/96/d5/1d/96d51d9dba675132fc87f3a3c173035d.jpg",
         title: "2",
     },
     {
-        src : "https://placehold.co/600x300",
+        src : "https://i.pinimg.com/736x/7d/ec/47/7dec473648fc80faaf082bdb00de5853.jpg",
         title: "3",
+    },
+    {
+        src : "https://i.pinimg.com/736x/ab/9f/2c/ab9f2cb29a8b89f956e0317d424ccd90.jpg",
+        title: "4",
+    },
+    {
+        src : "https://i.pinimg.com/736x/84/b5/d5/84b5d5175ceb88e27407df6e06cefeaf.jpg",
+        title: "5",
+    },
+    {
+        src : "https://i.pinimg.com/736x/b9/86/df/b986dfd9bcd8f6a01e18720bf39aa066.jpg",
+        title: "6",
     },
 ]
 //Fim Projeto Timeless
@@ -132,7 +144,7 @@ export const midTimeless = [
 export const bannerCyberpunk =  [
     {
       title: "CYBERPUNK 2077 DICE GAME",
-      cover: "https://placehold.co/1200x600",
+      cover: "https://i.imgur.com/1NxDbKy.png",
     }
   ]
 
@@ -158,16 +170,28 @@ export const extCyberpunk = [
 
 export const midCyberpunk = [
     {
-        src : "https://placehold.co/1200x600",
+        src : "https://i.pinimg.com/736x/de/b1/bd/deb1bd8a8e375fce8e47f98a345d295d.jpg",
         title: "1",
     },
     {
-        src : "https://placehold.co/1200x600",
+        src : "https://i.pinimg.com/736x/e4/5b/17/e45b17c148bb2c5a3db6209a35dc0ed5.jpg",
         title: "2",
     },
     {
-        src : "https://placehold.co/600x300",
+        src : "https://i.pinimg.com/736x/8a/7b/6c/8a7b6c50e1062459bcc6a1a4a4ee6ca2.jpg",
         title: "3",
+    },
+    {
+        src : "https://i.pinimg.com/736x/b8/e0/01/b8e00173292a700195294ae34516a66e.jpg",
+        title: "4",
+    },
+    {
+        src : "https://i.pinimg.com/736x/e6/d0/30/e6d030bcad17dc3908e135544c25cb07.jpg",
+        title: "5",
+    },
+    {
+        src : "https://i.pinimg.com/736x/2f/1c/b9/2f1cb9a6e704ee31f7fb6a65dcb4959a.jpg",
+        title: "6",
     },
 ]
 //Fim Projeto Cyberpunk

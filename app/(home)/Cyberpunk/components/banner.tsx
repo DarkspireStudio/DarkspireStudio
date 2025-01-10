@@ -20,7 +20,7 @@ export default function BannerCyberpunk() {
                 <h1 className="text-4xl lg:text-7x1 font-bold py-5">{projet.title}</h1>
                 </div>
 
-                <Image src={projet.cover} alt="Thumb" className="rounded-xl border-4 border-purple-700 " height={500} width={500}/>
+                <Image src={projet.cover} alt="Thumb" className="rounded-xl border-4 border-purple-700 " height={1080} width={1920}/>
 
                 <p className="text-gray-500 font-bold">Palavras-chave: <span className="text-gray-700 font-normal">{keyCyberpunk.words}.</span></p>
 
