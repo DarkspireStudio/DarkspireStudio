@@ -16,8 +16,8 @@ export const galery = [
         type: ["Poster"]
     },
     {
-        src: "https://i.pinimg.com/736x/69/95/6f/69956f3cbe9ac7dc07f475568383ec7d.jpg",
-        txt: "Opala Diplomata 1990",
+        src: "https://i.imgur.com/IUHpYUK.jpeg",
+        txt: "Alien",
         tech:[SiAdobeillustrator, SiAdobephotoshop],
         type: ["Poster"]
     },
@@ -62,7 +62,8 @@ export const projects = [
         tech:[SiAdobeillustrator, SiAdobephotoshop],
         Link: "/Timeless",
         cover: "https://i.imgur.com/4Ts19Zp.png",
-        background: "bg-purple-700",
+        type: ["Branding", "Social Media", "Produção"],
+        resume: "A Timeless surge a partir da ideia de um certo grupo de estudantes: uma marca de estilo alternativo e nostálgico, trazendo estilos coloridos e visualmente impactantes baseados na cultura dos anos 2000 para os jovens da modernidade.",
     },
 
     {
@@ -70,7 +71,8 @@ export const projects = [
         tech:[SiAdobeillustrator, SiAdobephotoshop, SiAdobepremierepro],
         Link: "/Cyberpunk",
         cover: "https://i.imgur.com/9XWeo8x.png",
-        background: "bg-purple-700",
+        type: ["Jogo de Tabuleiro", "Social Media", "Produção"],
+        resume: "Cyberpunk 2077 Dice Game unimos dois mundos em um, com uma estratégia para trazer jogadores de jogos de tabuleiros e digitais para o jogo.",
     },
 ]
 
@@ -79,6 +81,7 @@ export const bannerTimeless =  [
     {
       title: "PROJETO DE MARCA TIMELLES",
       cover: "https://i.imgur.com/SeIgSzR.png",
+      tech:[SiAdobeillustrator, SiAdobephotoshop],
     }
   ]
 
@@ -141,6 +144,7 @@ export const bannerCyberpunk =  [
     {
       title: "CYBERPUNK 2077 DICE GAME",
       cover: "https://i.imgur.com/1NxDbKy.png",
+      tech:[SiAdobeillustrator, SiAdobephotoshop, SiAdobepremierepro],
     }
   ]
 

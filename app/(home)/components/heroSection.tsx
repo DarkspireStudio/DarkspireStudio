@@ -11,9 +11,7 @@ export default function HeroSection() {
         <div className="space-y-4 text-center lg:text-justify">
 
             <h1 className="text-4xl lg:text-7x1 font-bold">
-                Bem-vindo ao meu Portfólio! 👋<br/>
-                
-                <span className="underline underline-offset-8 decoration-purple-700">{"Meu nome é Pablo Diogo"}</span>
+                Bem-vindo ao meu Portfólio!<br/>
             </h1>
 
             <p className="md:w-96 text-lg text-gray-300 hyphens-auto">

@@ -21,26 +21,34 @@ export default function Galeria() {
           >          
             {galery.map((image, index)=>{
               return (
-                <div key={index} className="hover:scale-150 transition-all  bg-black p-2 rounded-md border-gray-700 border-2 cursor-pointer">
-                  <Image src={image.src} alt={image.txt} height={500} width={500}/>
-                  <h1 className="text-3xl font-mono font-bold text-gray-500">{image.txt}</h1>
-                  <div className=" border-t-slate-700 border-t mt-2">
-                  <div  className="flex items-center gap-1">
-                    {image.type.map((Txt, idx) =>{
-                      return (
-                          <p key={idx} className="text-black bg-gray-600 rounded-md text-sm mt-2 flex items-center gap-2 px-2">{Txt}</p>
-                      )
-                    })}
-                    </div>
-                    <div className="flex items-center gap-1 mt-1">
-                      <p className="text-sm font-mono text-gray-700">Feito com:</p>
-                      {image.tech.map((Icon, idx) =>{
-                        return (
-                          <Icon key={idx} className="w-4 h-4 fill-gray-700"/>
-                        )
-                      })}
-                    </div>
-                  </div>
+                <div key={index} className="border-2 rounded-xl bg-purple-700 border-violet-700 cursor-pointer hover:shadow-md hover:shadow-purple-700">
+                      <div className="bg-purple-700 p-2 rounded-t-xl">
+                        <h1 className="font-bold text-2xl text-center">{image.txt}</h1>
+                      </div>
+
+                      <Image src={image.src} alt={image.txt} height={500} width={500}/>
+
+                      <div className="bg-slate-700 p-2 border-t-2 border-t-violet-700">
+                        <div  className="flex items-center gap-1 justify-center">
+                          {image.type.map((Txt, idx) =>{
+                            return (
+                                <p key={idx} className="bg-black rounded-md text-sm flex items-center gap-2 px-2">{Txt}</p>
+                            )
+                          })}
+                        </div>
+                      </div>
+
+                      <div className="bg-slate-950 p-2 rounded-b-xl border-t-2 border-t-violet-700">
+                        <div  className="justify-center">
+                          <div className="flex items-center gap-2 justify-center">
+                            {image.tech.map((Icon, idx) =>{
+                              return (
+                                <Icon key={idx} className="w-6 h-6"/>
+                              )
+                            })}
+                          </div>
+                        </div>
+                      </div>
                 </div>
               )
             })}
